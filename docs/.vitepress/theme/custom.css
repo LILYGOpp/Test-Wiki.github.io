@@ -1,0 +1,52 @@
+/* 自定义样式 */
+
+:root {
+  --vp-c-brand: #4caf7d;
+  --vp-c-brand-light: #6bc593;
+  --vp-c-brand-lighter: #8fd1a3;
+  --vp-c-brand-dark: #3a9b68;
+  --vp-c-brand-darker: #0a7d43;
+}
+
+/* 深色模式 */
+.dark {
+  --vp-c-brand: #6bc593;
+}
+
+/* 自定义颜色变量 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* 代码块样式 */
+.vp-code {
+  background-color: #f5f5f5;
+}
+
+.dark .vp-code {
+  background-color: #1e1e1e;
+}
+
+/* 链接样式 */
+a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vp-c-brand-dark);
+}
+
+/* 按钮样式 */
+.vp-button {
+  border-radius: 24px;
+  padding: 0 20px;
+  height: 44px;
+}
+
+/* 卡片样式 */
+.vp-card {
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  padding: 16px;
+}

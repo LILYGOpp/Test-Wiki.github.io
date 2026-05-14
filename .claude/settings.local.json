@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -I \"https://spark.lilygo.cc/widget.js\")"
+    ]
+  }
+}

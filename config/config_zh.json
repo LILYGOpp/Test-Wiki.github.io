@@ -1,0 +1,135 @@
+{
+    "locale": "zh_CN",
+    "navbar": {
+        "title": "LILYGO",
+        "logo": {
+            "alt": "LILYGO logo",
+            "src": "/static/image/logo.png"
+        },
+        "home_url": "/",
+        "items": [
+            {
+                "url": "/get_started/zh/",
+                "label": "产品",
+                "position": "left"
+            },
+            {
+                "url": "/news/",
+                "label": "START",
+                "position": "left"
+            },
+            {
+                "label": "<img src='/static/image/setting.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://xinyuan-lilygo.github.io/Launchpad/",
+                "target": "_blank"
+            },            
+            {
+                "label": "<img src='/static/image/shop.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://lilygo.cc/",
+                "target": "_blank"
+            },
+            {
+                "label": "<img src='/static/image/youtube.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://www.youtube.com/@LILYGO",
+                "target": "_blank"
+            },
+            {
+                "label": "<img src='/static/image/github.svg' style='height: 1.5em;vertical-align: middle;'>",
+                "position": "right",
+                "url": "https://github.com/Xinyuan-LilyGO",
+                "target": "_blank"
+            },
+            {
+                "id": "language",
+                "label": "<img src='/static/image/language.svg' style='height: 1.5em;vertical-align: middle;'>&nbsp;",
+                "position": "right",
+                "type": "language"
+            }
+        ]
+    },
+    "footer":{
+        "top":[
+            {
+                "label": "相关链接",
+                "items": [
+                    {
+                        "label": "LILYGO 官网",
+                        "url": "https://lilygo.cc",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "LILYGO 淘宝",
+                        "url": "https://shop140839766.taobao.com/?spm=a1z10.1-c.0.0.359257605UXZ3y",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "label": "关注我们",
+                "items": [
+                    {
+                        "label": "X",
+                        "url": "https://x.com/lilygo9",
+                        "target": "_blank"
+                    },
+                    {
+                "label": "淘宝店铺",
+                "url": "https://shop140839766.taobao.com/?spm=a1z10.1-c.0.0.359257605UXZ3y",
+                "target": "_blank"
+            },
+                    {
+                        "label": "Github",
+                        "url": "https://github.com/Xinyuan-LilyGO",
+                        "target":"_blank"
+                    },
+                    {
+                        "label": "YouTube",
+                        "url": "https://www.youtube.com/@LILYGO",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Facebook",
+                        "url": "https://www.facebook.com/lilygottgo",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "label": "源码",
+                "items": [
+                    {
+                        "label": "开源项目",
+                        "url": "https://github.com/Xinyuan-LilyGO",
+                        "target": "_blank"
+                    },
+                    {
+                        "label": "Wiki源码",
+                        "url": "https://github.com/Xinyuan-LilyGO/LILYGO_wiki",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "深圳市芯元电子科技有限公司 © 2026",
+                "url": "https://lilygo.cc/",
+                "target": "_blank"
+            }
+        ]
+    },
+    "plugins": {
+        "teedoc-plugin-ad-hint": {
+            "config": {
+                "label": "☆",
+                "content": "对我们的产品感兴趣可以关注我们的官网商店以及淘宝店铺<br>Github有感兴趣的项目可以 ☆ star哦~🦀🦀"
+            }
+        }
+    },
+    "show_source": "编辑本页",
+    "description": "LILYGO 官方文档与产品信息",
+    "keywords": "LILYGO, ESP32, 开发板, 物联网, Arduino, 嵌入式系统"
+}

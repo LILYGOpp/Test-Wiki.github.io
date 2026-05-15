@@ -137,10 +137,11 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
       <th colspan = "2">Direction Tracking</th>
     </tr>
   </thead>
+  <tbody>
     <tr>
     <td>ESP32 Firmware</td>
     <td>ESP32_AT_Firmware_UART1_SGPIO.bin</td>
-  </tr>:
+  </tr>
   <tr>
     <td>K210 Firmware</td>
     <td>maixpy_twatch_v0.6.2-75-g973361c0d-dirty.bin</td>
@@ -149,6 +150,7 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
     <td>Direction model</td>
     <td>Identify_Direction_model.kmodel</td>
   </tr>
+  </tbody>
 </table>
 
 <table role="table" class="center_table">
@@ -157,10 +159,11 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
       <th colspan = "2">Direction Tracking</th>
     </tr>
   </thead>
+    <tbody>
     <tr>
     <td>ESP32 Firmware</td>
     <td>ESP32_AT_Firmware_UART1_SGPIO.bin</td>
-  </tr>:
+  </tr>
   <tr>
     <td>K210 Firmware</td>
     <td>maixpy_twatch_v0.6.2-75-g973361c0d-dirty.bin</td>
@@ -169,6 +172,7 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
     <td>Direction model</td>
     <td>face_model_at_0x300000.kfpkg</td>
   </tr>
+</tbody>
 </table>
 
 
@@ -179,10 +183,11 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
       <th colspan = "2">speech_recognizer</th>
     </tr>
   </thead>
+    <tbody>
     <tr>
     <td>ESP32 Firmware</td>
     <td>ESP32_AT_Firmware_UART1_SGPIO.bin</td>
-  </tr>:
+  </tr>
   <tr>
     <td>K210 Firmware</td>
     <td>maixpy_v0.6.2_83_gf0280db50_minimum_speech_with_ide_support.bin</td>
@@ -191,6 +196,7 @@ Github：[T-Bao](https://github.com/Xinyuan-LilyGO/LilyGo-K210-Script)
     <td>Direction model</td>
     <td>maix_asr_2900k_0x500000.kmodel</td>
   </tr>
+</tbody>
 </table>
 
 >! It should be noted here that the kflash_gui tool should be used to write maix_asR_2900K_0x50000.kmodel to the address 0x500000. And first burn maixpy_v0.6.2_83_gf0280db50_minimum_speech_with_ide_support.bin

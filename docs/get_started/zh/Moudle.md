@@ -1,11 +1,9 @@
 ---
 title: LILYGO xxxxxx
 ---
-<!-- **[English](README.MD) | 中文** -->
-
-<div style="width:100%; display:flex;justify-content: center;">
 
 ## 概述
+
 ## 外观及功能介绍
 ### 外观
 ### 引脚图 

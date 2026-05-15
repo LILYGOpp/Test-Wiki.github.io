@@ -50,3 +50,13 @@ a:hover {
   border: 1px solid var(--vp-c-divider);
   padding: 16px;
 }
+
+/* 隐藏 VitePress 内置的语言切换器，使用自定义的 LanguageSwitcher 组件 */
+.VPNavBarAppearance + .VPNavBarTranslations {
+  display: none !important;
+}
+
+/* 或者使用更通用的选择器 */
+.VPNavBarTranslations {
+  display: none !important;
+}

@@ -204,41 +204,41 @@ T-Display-P4 has two versions: Amoled and TFT. Pin diagrams are as follows:
 
 | example | `[vscode][esp-idf-v5.4.0]` | description | picture |
 | ------  | ------ | ------ | ------ | 
-| [afe](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/afe) |  <p align="center">![alt text][supported] | | |
-| [aw86224](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/aw86224) |  <p align="center">![alt text][supported] | | |
-| [bq27220](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/bq27220) |  <p align="center">![alt text][supported] | | |
-| [deep_sleep](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/deep_sleep) |  <p align="center">![alt text][supported] | | |
-| [es8311](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/es8311) |  <p align="center">![alt text][supported] | | |
-| [es8311_sd_wav](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/es8311_sd_wav) |  <p align="center">![alt text][supported] | | |
-| [esp_hosted_mcu_sdio_wifi](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp_hosted_mcu_sdio_wifi) |  <p align="center">![alt text][supported] | | |
-| [esp32c6_at_host_sdio_uart](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp32c6_at_host_sdio_uart) |  <p align="center">![alt text][supported] | | |
-| [esp32c6_at_host_sdio_wifi](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp32c6_at_host_sdio_wifi) |  <p align="center">![alt text][supported] | | |
-| [icm20948](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/icm20948) |  <p align="center">![alt text][supported] | | |
-| [iic_scan](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/iic_scan) |  <p align="center">![alt text][supported] | | |
-| [l76k](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/l76k) |  <p align="center">![alt text][supported] | | |
-| [lvgl_9_ui](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/lvgl_9_ui) |  <p align="center">![alt text][supported] |Factory Example | |
-| [pcf8563](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/pcf8563) |  <p align="center">![alt text][supported] | | |
-| [radiolib_sx1262_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/radiolib_sx1262_send_receive) |  <p align="center">![alt text][supported] | | |
-| [screen_camera](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_camera) |  <p align="center">![alt text][supported] | | |
-| [screen_lvgl](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_lvgl) |  <p align="center">![alt text][supported] | | |
-| [screen_lvgl_touch_draw](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_lvgl_touch_draw) |  <p align="center">![alt text][supported] | | |
-| [sgm38121](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sgm38121) |  <p align="center">![alt text][supported] | | |
-| [sx1262_gfsk_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_gfsk_send_receive) |  <p align="center">![alt text][supported] | | |
-| [sx1262_lora_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_lora_send_receive) |  <p align="center">![alt text][supported] | | |
-| [sx1262_tx_continuous_wave](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_tx_continuous_wave) |  <p align="center">![alt text][supported] | | |
-| [tusb_serial_device](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/tusb_serial_device) |  <p align="center">![alt text][supported] | | |
-| [xl9535](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/Vibration_Motor) |  <p align="center">![alt text][supported] | | |
-| [xiaozhi](https://github.com/78/xiaozhi-esp32) |  <p align="center">![alt text][supported] | | |
+| [afe](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/afe) |  ![alt text][supported] | | |
+| [aw86224](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/aw86224) |  ![alt text][supported] | | |
+| [bq27220](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/bq27220) |  ![alt text][supported] | | |
+| [deep_sleep](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/deep_sleep) |  ![alt text][supported] | | |
+| [es8311](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/es8311) |  ![alt text][supported] | | |
+| [es8311_sd_wav](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/es8311_sd_wav) |  ![alt text][supported] | | |
+| [esp_hosted_mcu_sdio_wifi](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp_hosted_mcu_sdio_wifi) |  ![alt text][supported] | | |
+| [esp32c6_at_host_sdio_uart](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp32c6_at_host_sdio_uart) |  ![alt text][supported] | | |
+| [esp32c6_at_host_sdio_wifi](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/esp32c6_at_host_sdio_wifi) |  ![alt text][supported] | | |
+| [icm20948](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/icm20948) |  ![alt text][supported] | | |
+| [iic_scan](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/iic_scan) |  ![alt text][supported] | | |
+| [l76k](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/l76k) |  ![alt text][supported] | | |
+| [lvgl_9_ui](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/lvgl_9_ui) |  ![alt text][supported] |Factory Example | |
+| [pcf8563](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/pcf8563) |  ![alt text][supported] | | |
+| [radiolib_sx1262_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/radiolib_sx1262_send_receive) |  ![alt text][supported] | | |
+| [screen_camera](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_camera) |  ![alt text][supported] | | |
+| [screen_lvgl](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_lvgl) |  ![alt text][supported] | | |
+| [screen_lvgl_touch_draw](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/screen_lvgl_touch_draw) |  ![alt text][supported] | | |
+| [sgm38121](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sgm38121) |  ![alt text][supported] | | |
+| [sx1262_gfsk_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_gfsk_send_receive) |  ![alt text][supported] | | |
+| [sx1262_lora_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_lora_send_receive) |  ![alt text][supported] | | |
+| [sx1262_tx_continuous_wave](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/sx1262_tx_continuous_wave) |  ![alt text][supported] | | |
+| [tusb_serial_device](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/tusb_serial_device) |  ![alt text][supported] | | |
+| [xl9535](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/examples/Vibration_Motor) |  ![alt text][supported] | | |
+| [xiaozhi](https://github.com/78/xiaozhi-esp32) |  ![alt text][supported] | | |
 #### T-Display-P4-Keyboard Examples
 
 | example | `[vscode][esp-idf-v5.4.0]` | description | picture |
 | ------  | ------ | ------ | ------ | 
-| [radiolib_cc1101_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/radiolib_cc1101_send_receive) |  <p align="center">![alt text][supported] | | |
-| [radiolib_nrf24l01_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/radiolib_nrf24l01_send_receive) |  <p align="center">![alt text][supported] | | |
-| [screen_tca8418_lvgl_touch_draw](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/screen_tca8418_lvgl_touch_draw) |  <p align="center">![alt text][supported] | | |
-| [st25r3916](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/st25r3916) |  <p align="center">![alt text][supported] | | |
-| [tca8418](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/tca8418) |  <p align="center">![alt text][supported] | | |
-| [xl9555](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/xl9555) |  <p align="center">![alt text][supported] | | |
+| [radiolib_cc1101_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/radiolib_cc1101_send_receive) |  ![alt text][supported] | | |
+| [radiolib_nrf24l01_send_receive](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/radiolib_nrf24l01_send_receive) |  ![alt text][supported] | | |
+| [screen_tca8418_lvgl_touch_draw](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/screen_tca8418_lvgl_touch_draw) |  ![alt text][supported] | | |
+| [st25r3916](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/st25r3916) |  ![alt text][supported] | | |
+| [tca8418](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/tca8418) |  ![alt text][supported] | | |
+| [xl9555](https://github.com/Xinyuan-LilyGO/T-Display-P4/tree/main/main/keyboard_examples/xl9555) |  ![alt text][supported] | | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

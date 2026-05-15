@@ -104,8 +104,8 @@ LILYGO T-2CAN is a high-performance, compact embedded communication module based
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
 | ------  | ------ | ------ | ------ | 
-| [can](https://github.com/Xinyuan-LilyGO/T-2Can/blob/main/examples/can) |  <p align="center">![alt text][supported] | Basic CAN communication example | |
-| [Original_Test](https://github.com/Xinyuan-LilyGO/T-2Can/blob/main/examples/original_test) |  <p align="center">![alt text][supported] | Factory test program with CAN bus testing | |
+| [can](https://github.com/Xinyuan-LilyGO/T-2Can/blob/main/examples/can) |  ![alt text][supported] | Basic CAN communication example | |
+| [Original_Test](https://github.com/Xinyuan-LilyGO/T-2Can/blob/main/examples/original_test) |  ![alt text][supported] | Factory test program with CAN bus testing | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

@@ -164,25 +164,25 @@ T-CameraPlus-S3是一款基于ESP32-S3主控芯片的多功能智能硬件开发
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]`| `[vscode][esp-idf-v5.4.0]`| Description | Picture |
 | ------  | ------  | ------ | ------ | ------ | 
-| [Wifi_Scan](./examples/Wifi_Scan) | <p align="center">![alt text][supported] | | |  |
-| [Lvgl_UI](./examples/Lvgl_UI) | <p align="center">![alt text][supported] || 出厂固件 |  |
-| [Wifi_Music](./examples/Wifi_Music) | <p align="center">![alt text][supported] ||  |  |
-| [SD_Music](./examples/SD_Music) | <p align="center">![alt text][supported] | | |  |
-| [DMIC_ReadData](./examples/DMIC_ReadData) | <p align="center">![alt text][supported] | | |  |
-| [SD_DMIC](./examples/SD_DMIC) | <p align="center">![alt text][supported] ||  |  |
-| [TFT](./examples/TFT) | <p align="center">![alt text][supported] ||  |  |
-| [IIC_Scan_2](./examples/IIC_Scan_2) | <p align="center">![alt text][supported] | ||  |
-| [Camera_WebServer](./examples/Camera_WebServer) | <p align="center">![alt text][supported] ||  |  |
-| [CST816D](./examples/CST816D) | <p align="center">![alt text][supported] | | |  |
-| [GFX_Test](./examples/GFX_Test) | <p align="center">![alt text][supported] | | |  |
-| [SY6970](./examples/SY6970) | <p align="center">![alt text][supported] |  | | |
-| [SD_MJPEG](./examples/SD_MJPEG) | <p align="center">![alt text][supported] |  |  |
-| [Camera_Screen](./examples/Camera_Screen) | <p align="center">![alt text][supported] ||  |  |
-| [Camera_Screen_OV5640_Auto_Focus](./examples/Camera_Screen_OV5640_Auto_Focus) | <p align="center">![alt text][supported] | | |  |
-| [Camera_WebServer_OV5640_Auto_Focus](./examples/Camera_WebServer_OV5640_Auto_Focus) | <p align="center">![alt text][supported] |  ||  |
-| [Voice_Speaker](./examples/Voice_Speaker) | <p align="center">![alt text][supported] | | |  |
-| [iic_scan](./main/examples/iic_scan) |  | <p align="center">![alt text][supported]| |  |
-| [afe](./main/examples/afe) |  | <p align="center">![alt text][supported]| |  |
+| [Wifi_Scan](./examples/Wifi_Scan) | ![alt text][supported] | | |  |
+| [Lvgl_UI](./examples/Lvgl_UI) | ![alt text][supported] || 出厂固件 |  |
+| [Wifi_Music](./examples/Wifi_Music) | ![alt text][supported] ||  |  |
+| [SD_Music](./examples/SD_Music) | ![alt text][supported] | | |  |
+| [DMIC_ReadData](./examples/DMIC_ReadData) | ![alt text][supported] | | |  |
+| [SD_DMIC](./examples/SD_DMIC) | ![alt text][supported] ||  |  |
+| [TFT](./examples/TFT) | ![alt text][supported] ||  |  |
+| [IIC_Scan_2](./examples/IIC_Scan_2) | ![alt text][supported] | ||  |
+| [Camera_WebServer](./examples/Camera_WebServer) | ![alt text][supported] ||  |  |
+| [CST816D](./examples/CST816D) | ![alt text][supported] | | |  |
+| [GFX_Test](./examples/GFX_Test) | ![alt text][supported] | | |  |
+| [SY6970](./examples/SY6970) | ![alt text][supported] |  | | |
+| [SD_MJPEG](./examples/SD_MJPEG) | ![alt text][supported] |  |  |
+| [Camera_Screen](./examples/Camera_Screen) | ![alt text][supported] ||  |  |
+| [Camera_Screen_OV5640_Auto_Focus](./examples/Camera_Screen_OV5640_Auto_Focus) | ![alt text][supported] | | |  |
+| [Camera_WebServer_OV5640_Auto_Focus](./examples/Camera_WebServer_OV5640_Auto_Focus) | ![alt text][supported] |  ||  |
+| [Voice_Speaker](./examples/Voice_Speaker) | ![alt text][supported] | | |  |
+| [iic_scan](./main/examples/iic_scan) |  | ![alt text][supported]| |  |
+| [afe](./main/examples/afe) |  | ![alt text][supported]| |  |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

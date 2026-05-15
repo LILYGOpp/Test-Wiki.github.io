@@ -104,8 +104,8 @@ LILYGO T-2CAN 是一款高性能、紧凑型嵌入式通信模块，基于强大
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
 | ------  | ------ | ------ | ------ | 
-| [can](./examples/can) |  <p align="center">![alt text][supported] | | |
-| [Original_Test](./examples/original_test) |  <p align="center">![alt text][supported] | 出厂程序 | |
+| [can](./examples/can) |  ![alt text][supported] | | |
+| [Original_Test](./examples/original_test) |  ![alt text][supported] | 出厂程序 | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

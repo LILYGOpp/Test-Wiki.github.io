@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'LILYGO Wiki',
   description: 'LILYGO - Happy to write',
   lastUpdated: true,
+  base: '/LILYGO_wiki/',
 
   locales: {
     root: {
@@ -22,6 +23,7 @@ export default defineConfig({
           {
             text: '链接',
             items: [
+              { text: '网页下载工具', link: 'https://xinyuan-lilygo.github.io/Launchpad/', target: '_blank' },
               { text: 'LILYGO官网', link: 'https://lilygo.cc', target: '_blank' },
               { text: 'GitHub', link: 'https://github.com/Xinyuan-LilyGO', target: '_blank' },
               { text: 'YouTube', link: 'https://www.youtube.com/@LILYGO', target: '_blank' },
@@ -390,6 +392,56 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+      }
+    },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      themeConfig: {
+        logo: '/static/image/logo.png',
+        siteTitle: 'LILYGO',
+
+        // English navigation bar
+        nav: [
+          { text: 'Products', link: '/get_started/en/' },
+          { text: 'START', link: '/news/' },
+          { text: 'Develop', link: '/develop/en/' },
+          { text: 'More', link: '/more/' },
+          {
+            text: 'Links',
+            items: [
+              { text: 'Web Download Tool', link: 'https://xinyuan-lilygo.github.io/Launchpad/', target: '_blank' },
+              { text: 'LILYGO Official', link: 'https://lilygo.cc', target: '_blank' },
+              { text: 'GitHub', link: 'https://github.com/Xinyuan-LilyGO', target: '_blank' },
+              { text: 'YouTube', link: 'https://www.youtube.com/@LILYGO', target: '_blank' },
+              { text: 'Taobao Store', link: 'https://shop140839766.taobao.com', target: '_blank' },
+            ]
+          }
+        ],
+
+        // Footer
+        footer: {
+          message: 'Released under the MIT License.',
+          copyright: 'Copyright © 2024 LILYGO'
+        },
+
+        // Social links
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Xinyuan-LilyGO' },
+          { icon: 'x', link: 'https://x.com/lilygo9' },
+          { icon: 'youtube', link: 'https://www.youtube.com/@LILYGO' },
+        ],
+
+        // Edit link
+        editLink: {
+          pattern: 'https://github.com/LILYGOpp/LILYGO_wiki/edit/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
+
+        // Search
+        search: {
+          provider: 'local'
+        }
       }
     }
   }

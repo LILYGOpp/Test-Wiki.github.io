@@ -154,22 +154,22 @@ LILYGO T-Circle S3 is a versatile development board based on the ESP32-S3 wirele
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | `[ESP-IDF][esp-idf-V4.4.8]`| `[ESP-IDF][esp-idf-V5.3.2]`| Description |
 | :-----: | :-----------------------------------------------------------------------: | :----------------------: | :----------------------: | :---------- |
-| [Animated_Eyes_1](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Animated_Eyes_1) | <p align="center">![alt text][supported] |  |  |  |
-| [APA102_Blink](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/APA102_Blink) | <p align="center">![alt text][supported] |  |  |  |
-| [CST816D](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/CST816D) | <p align="center">![alt text][supported] |  |  |  |
-| [DMIC_ReadData](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/DMIC_ReadData) | <p align="center">![alt text][supported] |  |  |  |
-| [GFX](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX) | <p align="center">![alt text][supported] |  |  |  |
-| [GFX_CST816D_Image](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_CST816D_Image) | <p align="center">![alt text][supported] |  |  |  |
-| [GFX_Wifi_AP_Contract](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_Wifi_AP_Contract) | <p align="center">![alt text][supported] |  |  |  |
-| [GFX_Wifi_STA_Contract](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_Wifi_STA_Contract) | <p align="center">![alt text][supported] |  |  |  |
-| [IIC_Scan_2](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/IIC_Scan_2) | <p align="center">![alt text][supported] |  |  |  |
-| [Original_Test](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Original_Test) | <p align="center">![alt text][supported] |  |  | Factory initial test file |
-| [TFT](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/TFT) | <p align="center">![alt text][supported] |  |  |  |
-| [Voice_Speaker](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Voice_Speaker) | <p align="center">![alt text][supported] |  |  |  |
-| [Voice_Speaker_APA102](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Voice_Speaker_APA102) | <p align="center">![alt text][supported] |  |  |  |
-| [Wifi_Music](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Wifi_Music) | <p align="center">![alt text][supported] |  |  |  |
-| [lilygo_s3_apps](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/lilygo_s3_apps) |  | <p align="center">![alt text][supported] |  | This example is a voice control example provided by Grovety. Original link: <br /> [Grovety lilygo_s3_apps](https://github.com/Grovety/lilygo_s3_apps)|
-| [XiaoZhi_AI_Chatbot](https://github.com/78/xiaozhi-esp32?tab=readme-ov-file) |  |  | <p align="center">![alt text][supported] | This example is XiaoZhi AI example provided by Xiaoxia |
+| [Animated_Eyes_1](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Animated_Eyes_1) | ![alt text][supported] |  |  |  |
+| [APA102_Blink](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/APA102_Blink) | ![alt text][supported] |  |  |  |
+| [CST816D](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/CST816D) | ![alt text][supported] |  |  |  |
+| [DMIC_ReadData](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/DMIC_ReadData) | ![alt text][supported] |  |  |  |
+| [GFX](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX) | ![alt text][supported] |  |  |  |
+| [GFX_CST816D_Image](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_CST816D_Image) | ![alt text][supported] |  |  |  |
+| [GFX_Wifi_AP_Contract](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_Wifi_AP_Contract) | ![alt text][supported] |  |  |  |
+| [GFX_Wifi_STA_Contract](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/GFX_Wifi_STA_Contract) | ![alt text][supported] |  |  |  |
+| [IIC_Scan_2](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/IIC_Scan_2) | ![alt text][supported] |  |  |  |
+| [Original_Test](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Original_Test) | ![alt text][supported] |  |  | Factory initial test file |
+| [TFT](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/TFT) | ![alt text][supported] |  |  |  |
+| [Voice_Speaker](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Voice_Speaker) | ![alt text][supported] |  |  |  |
+| [Voice_Speaker_APA102](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Voice_Speaker_APA102) | ![alt text][supported] |  |  |  |
+| [Wifi_Music](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/Wifi_Music) | ![alt text][supported] |  |  |  |
+| [lilygo_s3_apps](https://github.com/Xinyuan-LilyGO/T-Circle-S3/blob/arduino-esp32-libs_V2.0.14/examples/lilygo_s3_apps) |  | ![alt text][supported] |  | This example is a voice control example provided by Grovety. Original link: <br /> [Grovety lilygo_s3_apps](https://github.com/Grovety/lilygo_s3_apps)|
+| [XiaoZhi_AI_Chatbot](https://github.com/78/xiaozhi-esp32?tab=readme-ov-file) |  |  | ![alt text][supported] | This example is XiaoZhi AI example provided by Xiaoxia |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

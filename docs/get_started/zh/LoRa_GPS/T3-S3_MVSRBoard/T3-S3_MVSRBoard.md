@@ -140,27 +140,27 @@ T3-S3-MVSRBoard 是针对 T3-S3_V1.2 主板的背板设计，具有板载扬声�
 
 | Example | `[Platformio IDE][espressif32-v6.5.0]`<br />`[Arduino IDE][esp32_v2.0.14]` | Description | Picture |
 | ------  | ------ | ------ | ------ | 
-| [DMIC_ReadData](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/DMIC_ReadData) |  <p align="center">![alt text][supported] | | |
-| [DMIC_SD](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/DMIC_SD) |  <p align="center">![alt text][supported] | | |
-| [GFX](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/GFX) |  <p align="center">![alt text][supported] | | |
-| [IIC_Scan_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/IIC_Scan_2) |  <p align="center">![alt text][supported] | | |
-| [Original_Test](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Original_Test) |  <p align="center">![alt text][supported] | 出厂程序 | |
-| [PCF85063](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063) |  <p align="center">![alt text][supported] | | |
-| [PCF85063_Scheduled_INT](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063_Scheduled_INT) |  <p align="center">![alt text][supported] | | |
-| [PCF85063_Timer_INT](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063_Timer_INT) |  <p align="center">![alt text][supported] | | |
-| [SD](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SD) |  <p align="center">![alt text][supported] | | |
-| [SD_Music](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SD_Music) |  <p align="center">![alt text][supported] | | |
-| [Sleep_Wake_Up](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Sleep_Wake_Up) |  <p align="center">![alt text][supported] | | |
-| [SX126x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_PingPong) |  <p align="center">![alt text][supported] | | |
-| [SX126x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_PingPong_2) |  <p align="center">![alt text][supported] | | |
-| [SX126x_Walkie_Talkie](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_Walkie_Talkie) |  <p align="center">![alt text][supported] | | |
-| [SX127x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX127x_PingPong) |  <p align="center">![alt text][supported] | | |
-| [SX127x_PingPong_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX127x_PingPong_2) |  <p align="center">![alt text][supported] | | |
-| [SX128x_PingPong_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX128x_PingPong_2) |  <p align="center">![alt text][supported] | | |
-| [Vibration_Motor](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Vibration_Motor) |  <p align="center">![alt text][supported] | | |
-| [Voice_Codec2_Speaker](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Voice_Codec2_Speaker) |  <p align="center">![alt text][supported] | | |
-| [Voice_Speaker](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Voice_Speaker) |  <p align="center">![alt text][supported] | | |
-| [Wifi_Music](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Wifi_Music) |  <p align="center">![alt text][supported] | | |
+| [DMIC_ReadData](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/DMIC_ReadData) |  ![alt text][supported] | | |
+| [DMIC_SD](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/DMIC_SD) |  ![alt text][supported] | | |
+| [GFX](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/GFX) |  ![alt text][supported] | | |
+| [IIC_Scan_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/IIC_Scan_2) |  ![alt text][supported] | | |
+| [Original_Test](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Original_Test) |  ![alt text][supported] | 出厂程序 | |
+| [PCF85063](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063) |  ![alt text][supported] | | |
+| [PCF85063_Scheduled_INT](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063_Scheduled_INT) |  ![alt text][supported] | | |
+| [PCF85063_Timer_INT](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/PCF85063_Timer_INT) |  ![alt text][supported] | | |
+| [SD](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SD) |  ![alt text][supported] | | |
+| [SD_Music](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SD_Music) |  ![alt text][supported] | | |
+| [Sleep_Wake_Up](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Sleep_Wake_Up) |  ![alt text][supported] | | |
+| [SX126x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_PingPong) |  ![alt text][supported] | | |
+| [SX126x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_PingPong_2) |  ![alt text][supported] | | |
+| [SX126x_Walkie_Talkie](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX126x_Walkie_Talkie) |  ![alt text][supported] | | |
+| [SX127x_PingPong](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX127x_PingPong) |  ![alt text][supported] | | |
+| [SX127x_PingPong_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX127x_PingPong_2) |  ![alt text][supported] | | |
+| [SX128x_PingPong_2](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/SX128x_PingPong_2) |  ![alt text][supported] | | |
+| [Vibration_Motor](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Vibration_Motor) |  ![alt text][supported] | | |
+| [Voice_Codec2_Speaker](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Voice_Codec2_Speaker) |  ![alt text][supported] | | |
+| [Voice_Speaker](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Voice_Speaker) |  ![alt text][supported] | | |
+| [Wifi_Music](https://github.com/Xinyuan-LilyGO/T3-S3-MVSRBoard/blob/main/examples/Wifi_Music) |  ![alt text][supported] | | |
 
 [supported]: https://img.shields.io/badge/-supported-green "example"
 

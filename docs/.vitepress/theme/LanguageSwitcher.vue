@@ -2,13 +2,13 @@
 import { useData, useRouter } from 'vitepress'
 import { computed } from 'vue'
 
-const { page, site } = useData()
+const { page } = useData()
 const router = useRouter()
 
 const currentLang = computed(() => {
   const path = page.value.relativePath
   // 检查是否是英文页面
-  if (path === 'index_en.md' || path === 'product_en.md' || path.includes('/en/')) {
+  if (path.startsWith('en/')) {
     return 'en'
   }
   // 其他情况都是中文
@@ -22,7 +22,6 @@ const switchLanguage = (targetLang: string) => {
   console.log('Current path:', currentPath)
   console.log('Target language:', targetLang)
   console.log('Current language:', currentLang.value)
-  console.log('Site base:', site.value.base)
 
   // 如果已经是目标语言，不做任何操作
   if (currentLang.value === targetLang) {
@@ -32,37 +31,29 @@ const switchLanguage = (targetLang: string) => {
 
   if (targetLang === 'en') {
     // 切换到英文
-    if (currentPath === 'index_zh.md' || currentPath === 'index.md') {
-      // 中文主页 -> 英文主页
-      newPath = '/index_en'
-    } else if (currentPath === 'product_zh.md') {
-      // 中文产品页 -> 英文产品页
-      newPath = '/product_en'
-    } else if (currentPath.includes('/zh/')) {
-      // 将中文路径替换为英文路径
-      newPath = '/' + currentPath
-        .replace('/zh/', '/en/')
-        .replace('.md', '')
+    if (currentPath === 'zh/index.md') {
+      newPath = '/en/'
+    } else if (currentPath === 'zh/product.md') {
+      newPath = '/en/product'
+    } else if (currentPath.startsWith('zh/')) {
+      // zh/ 开头的路径转换为 en/
+      newPath = '/en/' + currentPath.substring(3).replace('.md', '')
     } else {
-      // 其他情况
-      newPath = '/' + currentPath.replace('.md', '')
+      // 其他情况，添加 /en/ 前缀
+      newPath = '/en/' + currentPath.replace('.md', '')
     }
   } else {
     // 切换到中文
-    if (currentPath === 'index_en.md') {
-      // 英文主页 -> 中文主页
-      newPath = '/'
-    } else if (currentPath === 'product_en.md') {
-      // 英文产品页 -> 中文产品页
-      newPath = '/product_zh'
-    } else if (currentPath.includes('/en/')) {
-      // 将英文路径替换为中文路径
-      newPath = '/' + currentPath
-        .replace('/en/', '/zh/')
-        .replace('.md', '')
+    if (currentPath === 'en/index.md') {
+      newPath = '/zh/'
+    } else if (currentPath === 'en/product.md') {
+      newPath = '/zh/product'
+    } else if (currentPath.startsWith('en/')) {
+      // en/ 开头的路径转换为 zh/
+      newPath = '/zh/' + currentPath.substring(3).replace('.md', '')
     } else {
-      // 其他情况
-      newPath = '/' + currentPath.replace('.md', '')
+      // 其他情况，添加 /zh/ 前缀
+      newPath = '/zh/' + currentPath.replace('.md', '')
     }
   }
 

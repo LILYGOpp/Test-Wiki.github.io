@@ -4,8 +4,14 @@ export default defineConfig({
   title: 'LILYGO Wiki',
   description: 'LILYGO - Happy to write',
   lastUpdated: true,
-  base: '/Test-Wiki.github.io/',
+  // 开发模式使用 /，生产模式使用 /Test-Wiki.github.io/
+  base: process.env.NODE_ENV === 'production' ? '/Test-Wiki.github.io/' : '/',
   ignoreDeadLinks: true,
+
+  // 设置重写规则，让根路径指向 index_zh
+  rewrites: {
+    'index_zh.md': 'index.md'
+  },
 
   locales: {
     root: {
@@ -17,7 +23,7 @@ export default defineConfig({
 
         // 中文导航栏配置
         nav: [
-          { text: '产品', link: '/get_started/zh/' },
+          { text: '产品', link: '/product_zh' },
           { text: 'START', link: '/news/' },
           { text: '开发', link: '/develop/zh/' },
           { text: '更多', link: '/more/' },
@@ -404,7 +410,7 @@ export default defineConfig({
 
         // English navigation bar
         nav: [
-          { text: 'Products', link: '/get_started/en/' },
+          { text: 'Products', link: '/product_en' },
           { text: 'START', link: '/news/' },
           { text: 'Develop', link: '/develop/en/' },
           { text: 'More', link: '/more/' },

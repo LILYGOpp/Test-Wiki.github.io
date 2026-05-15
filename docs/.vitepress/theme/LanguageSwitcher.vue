@@ -2,17 +2,16 @@
 import { useData, useRouter } from 'vitepress'
 import { computed } from 'vue'
 
-const { page } = useData()
+const { page, site } = useData()
 const router = useRouter()
 
 const currentLang = computed(() => {
   const path = page.value.relativePath
-  if (path.includes('get_started/zh/') || path.includes('develop/zh/')) {
-    return 'zh'
-  } else if (path.includes('get_started/en/') || path.includes('develop/en/')) {
+  // 检查是否是英文页面
+  if (path === 'index_en.md' || path === 'product_en.md' || path.includes('/en/')) {
     return 'en'
   }
-  // 根据路径判断，如果是根目录或没有语言标识，默认为中文
+  // 其他情况都是中文
   return 'zh'
 })
 
@@ -20,28 +19,56 @@ const switchLanguage = (targetLang: string) => {
   const currentPath = page.value.relativePath
   let newPath = ''
 
+  console.log('Current path:', currentPath)
+  console.log('Target language:', targetLang)
+  console.log('Current language:', currentLang.value)
+  console.log('Site base:', site.value.base)
+
+  // 如果已经是目标语言，不做任何操作
+  if (currentLang.value === targetLang) {
+    console.log('Already in target language, skipping')
+    return
+  }
+
   if (targetLang === 'en') {
     // 切换到英文
-    if (currentPath === 'index.md') {
-      newPath = '/en'
-    } else {
+    if (currentPath === 'index_zh.md' || currentPath === 'index.md') {
+      // 中文主页 -> 英文主页
+      newPath = '/index_en'
+    } else if (currentPath === 'product_zh.md') {
+      // 中文产品页 -> 英文产品页
+      newPath = '/product_en'
+    } else if (currentPath.includes('/zh/')) {
+      // 将中文路径替换为英文路径
       newPath = '/' + currentPath
-        .replace('get_started/zh/', 'get_started/en/')
-        .replace('develop/zh/', 'develop/en/')
+        .replace('/zh/', '/en/')
         .replace('.md', '')
+    } else {
+      // 其他情况
+      newPath = '/' + currentPath.replace('.md', '')
     }
   } else {
     // 切换到中文
-    if (currentPath === 'en.md') {
+    if (currentPath === 'index_en.md') {
+      // 英文主页 -> 中文主页
       newPath = '/'
-    } else {
+    } else if (currentPath === 'product_en.md') {
+      // 英文产品页 -> 中文产品页
+      newPath = '/product_zh'
+    } else if (currentPath.includes('/en/')) {
+      // 将英文路径替换为中文路径
       newPath = '/' + currentPath
-        .replace('get_started/en/', 'get_started/zh/')
-        .replace('develop/en/', 'develop/zh/')
+        .replace('/en/', '/zh/')
         .replace('.md', '')
+    } else {
+      // 其他情况
+      newPath = '/' + currentPath.replace('.md', '')
     }
   }
 
+  console.log('New path:', newPath)
+
+  // 使用 router.go() 进行导航
   router.go(newPath)
 }
 </script>

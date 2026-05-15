@@ -2,7 +2,7 @@
 import { useData, useRouter } from 'vitepress'
 import { computed } from 'vue'
 
-const { page } = useData()
+const { page, site } = useData()
 const router = useRouter()
 
 const currentLang = computed(() => {
@@ -17,11 +17,13 @@ const currentLang = computed(() => {
 
 const switchLanguage = (targetLang: string) => {
   const currentPath = page.value.relativePath
+  const base = site.value.base
   let newPath = ''
 
   console.log('Current path:', currentPath)
   console.log('Target language:', targetLang)
   console.log('Current language:', currentLang.value)
+  console.log('Site base:', base)
 
   // 如果已经是目标语言，不做任何操作
   if (currentLang.value === targetLang) {
@@ -32,28 +34,28 @@ const switchLanguage = (targetLang: string) => {
   if (targetLang === 'en') {
     // 切换到英文
     if (currentPath === 'zh/index.md') {
-      newPath = '/en/'
+      newPath = base + 'en/'
     } else if (currentPath === 'zh/product.md') {
-      newPath = '/en/product'
+      newPath = base + 'en/product'
     } else if (currentPath.startsWith('zh/')) {
       // zh/ 开头的路径转换为 en/
-      newPath = '/en/' + currentPath.substring(3).replace('.md', '')
+      newPath = base + 'en/' + currentPath.substring(3).replace('.md', '')
     } else {
       // 其他情况，添加 /en/ 前缀
-      newPath = '/en/' + currentPath.replace('.md', '')
+      newPath = base + 'en/' + currentPath.replace('.md', '')
     }
   } else {
     // 切换到中文
     if (currentPath === 'en/index.md') {
-      newPath = '/zh/'
+      newPath = base + 'zh/'
     } else if (currentPath === 'en/product.md') {
-      newPath = '/zh/product'
+      newPath = base + 'zh/product'
     } else if (currentPath.startsWith('en/')) {
       // en/ 开头的路径转换为 zh/
-      newPath = '/zh/' + currentPath.substring(3).replace('.md', '')
+      newPath = base + 'zh/' + currentPath.substring(3).replace('.md', '')
     } else {
       // 其他情况，添加 /zh/ 前缀
-      newPath = '/zh/' + currentPath.replace('.md', '')
+      newPath = base + 'zh/' + currentPath.replace('.md', '')
     }
   }
 

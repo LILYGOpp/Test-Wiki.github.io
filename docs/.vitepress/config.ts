@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'LILYGO - Happy to write',
   lastUpdated: true,
   base: '/',
+  ignoreDeadLinks: true,
 
   locales: {
     root: {

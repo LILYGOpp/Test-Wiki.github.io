@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'LILYGO Wiki',
   description: 'LILYGO - Happy to write',
   lastUpdated: true,
-  base: '/',
+  base: '/Test-Wiki.github.io/',
   ignoreDeadLinks: true,
 
   locales: {

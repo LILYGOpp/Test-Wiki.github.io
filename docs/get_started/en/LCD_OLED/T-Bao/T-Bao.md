@@ -98,7 +98,7 @@ Designed for applications such as industrial visual inspection, smart security, 
     </tr>
     <tr>
         <td>Network Model</td>
-        <td><li>Supports YOLOv3<li>Mobilenetv2<li>TinyYOLOv2<li> Face recognition</td>
+        <td><ul><li>Supports YOLOv3</li><li>Mobilenetv2</li><li>TinyYOLOv2</li><li>Face recognition</li></ul></td>
     </tr>
     <tr>
         <td>Deep Learning Framework</td>
@@ -110,7 +110,7 @@ Designed for applications such as industrial visual inspection, smart security, 
     </tr>
     <tr>
         <td>Video Processing</td>
-        <td><li>Neural Network Processor (KPU)<li>FPU complies with IEEE754-2008 standard<li>Audio Processor (APU)<li>Fast Fourier Transform Accelerator(FFT)</td>
+        <td><ul><li>Neural Network Processor (KPU)</li><li>FPU complies with IEEE754-2008 standard</li><li>Audio Processor (APU)</li><li>Fast Fourier Transform Accelerator(FFT)</li></ul></td>
     </tr>
   </tbody>
 </table>

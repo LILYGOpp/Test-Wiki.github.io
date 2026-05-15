@@ -5,7 +5,7 @@ title: LILYGO T-Watch S3 Plus
 
 <div style="width:100%; display:flex;justify-content: center;">
 
-![T-Display K230](./assets/T-Watch-S3-PLUS1.jpg)
+![T-Display K230](./assets/主图.jpg)
 
 </div>
 
@@ -23,11 +23,11 @@ T-Watch S3 的Plus版本是基于T-Watch S3的基础上增加了GPS功能，与T
 
 ## 外观及功能介绍
 ### 外观
-<img src="./assets/T-Watch-S3-PLUS2.jpg" alt="summary" width=80%>
+<img src="./assets/WatchS3中文.jpg" alt="summary" width=80%>
 
 ### 引脚图 
 
-<img src="./assets/T-Watch-S3-PLUS3.jpg" alt="summary" width=100%>
+<img src="./assets/watch2020V3_S3中文版.jpg" alt="summary" width=100%>
 
 ## 模块资料
 ### 概述

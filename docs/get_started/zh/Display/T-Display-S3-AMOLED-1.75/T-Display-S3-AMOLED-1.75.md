@@ -67,7 +67,7 @@ T-Display AMOLED Plus 是一款基于 ESP32-S3 微控制器的高集成度开发
 *   总线通信协议：QSPI
 
 ### 概述
-<img src="./assets/T-Display-S3-AMOLED-1.75-info-zh.jpg" alt="summary" width=80%>
+<img src="./assets/T-Display-S3-AMOLED-1.75-zh.jpg" alt="summary" width=80%>
 
 | 组件 | 描述 |
 | --- | --- |

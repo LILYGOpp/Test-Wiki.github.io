@@ -6,7 +6,7 @@ tags: LoRa, nRF52840, E-Paper, Low Power, Meshtastic, Keyboard
 
 <div style="width:100%; display:flex;justify-content: center;">
 
-<img src="assets\T-Echo-Lite01.jpg" alt="">
+<img src="./assets/T-Echo-Lite01.jpg" alt="">
 
 </div>
 
@@ -47,7 +47,7 @@ T-Echo-Lite-KeyShield is a baseboard expansion for T-Echo-Lite, primarily extend
 ### Actual Product Image
 
 <p align="center" width="100%">
-    <img src="assets\T-Echo-Lite02.jpg" alt="">
+    <img src="./assets/T-Echo-Lite02.jpg" alt="">
 </p>
 
 
@@ -154,7 +154,7 @@ T-Echo-Lite-KeyShield is a baseboard expansion for T-Echo-Lite, primarily extend
 ## SoftwareDeployment
 
 <p align="center" width="100%">
-    <img src="assets\T-Echo-Lite03.jpg" alt="">
+    <img src="./assets/T-Echo-Lite03.jpg" alt="">
 </p>
 
 ### Examples Support
@@ -249,7 +249,7 @@ T-Echo-Lite-KeyShield is a baseboard expansion for T-Echo-Lite, primarily extend
 3.  Connect the JLINK pins correctly as shown in the figure below
 
 <p align="center" width="100%">
-    <img src="assets/12.jpg" alt="">
+    <img src="./assets/12.jpg" alt="">
 </p>
 
 4.  Open the software nRF-Connect-for-Desktop and install the tool [Programmer](./assets/10.png) and open it
@@ -297,7 +297,7 @@ For pin definitions, please refer to the configuration file:
 * A. The Bluetooth antenna and Lora antenna of the T-Echo-Lite module are as shown in the following figure:
 
 <p align="center" width="100%">
-    <img src="assets/14.png" alt="">
+    <img src="./assets/14.png" alt="">
 </p>
 
 <br />

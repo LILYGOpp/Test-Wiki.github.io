@@ -6,7 +6,7 @@ tags: LoRa, nRF52840, E-Paper, Low Power, Meshtastic, Keyboard
 
 <div style="width:100%; display:flex;justify-content: center;">
 
-<img src="assets\T-Echo-Lite01.jpg" alt="">
+<img src="./assets/T-Echo-Lite01.jpg" alt="">
 
 </div>
 
@@ -50,7 +50,7 @@ T-Echo-Lite-KeyShield 为 T-Echo-Lite 的底板扩展，主要扩展了键盘、
 ### 实物图
 
 <p align="center" width="100%">
-    <img src="assets\T-Echo-Lite02.jpg" alt="">
+    <img src="./assets/T-Echo-Lite02.jpg" alt="">
 </p>
 
 
@@ -163,7 +163,7 @@ T-Echo-Lite-KeyShield 为 T-Echo-Lite 的底板扩展，主要扩展了键盘、
 ## 软件部署
 
 <p align="center" width="100%">
-    <img src="assets\T-Echo-Lite03.jpg" alt="">
+    <img src="./assets/T-Echo-Lite03.jpg" alt="">
 </p>
 
 ### Examples Support
@@ -254,7 +254,7 @@ T-Echo-Lite-KeyShield 为 T-Echo-Lite 的底板扩展，主要扩展了键盘、
 3. 正确连接JLINK引脚如下图所示：
 
 <p align="center" width="100%">
-    <img src="assets/12.jpg" alt="">
+    <img src="./assets/12.jpg" alt="">
 </p>
 
 4. 打开软件nRF-Connect-for-Desktop 安装工具 [Programmer](./assets/10.png) 并打开
@@ -309,7 +309,7 @@ T-Echo-Lite-KeyShield 为 T-Echo-Lite 的底板扩展，主要扩展了键盘、
 * A. T-Echo-Lite模块的蓝牙天线和Lora天线如下图所示：
 
 <p align="center" width="100%">
-    <img src="assets/14.png" alt="">
+    <img src="./assets/14.png" alt="">
 </p>
 
 <br />
